@@ -7,15 +7,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Manage landing page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/src/output.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
+  <!-- Nav -->
+  <nav class="flex items-center justify-between flex-wrap p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <div class="block lg:hidden">
+      <button class="flex items-center px-5 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+      </button>
+    </div>
+  </nav>
   Pricing
   Product
   About Us
